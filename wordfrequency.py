@@ -29,4 +29,4 @@ print(wordFreq)
 wordsort = sorted(wordFreq.items(), key = lambda item : item[1], reverse=True)
 print("the top 10 most frequently repeating words are ")
 for word, freq in wordsort[:10]:
-    print(word,":",freq)
+    print(word,"occurs",freq,"times")
